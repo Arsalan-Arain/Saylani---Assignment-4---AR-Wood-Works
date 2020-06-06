@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.navbar{
+    background-color: white !important;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.logo{
+    height: 60px;
+    width: 320px;
+}
+
+/* Top Ribbon */
+.contact-ribbon{
+    display: flex;
+    background-color:  rgb(241, 168, 58);
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    color: white;
+    font-size: 13px;
+}
+/* Top Ribbon Icons */
+/* .contact-ribbon .personal-contact i{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.329);
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+} */
+
+.contact-ribbon .social-contact i{
+    color: white;
+    font-size: 14px;
+    margin: 0 18px 0 18px;
+}
+.contact-ribbon .social-contact a{
+    text-decoration: none;
+}
+.contact-ribbon .social-contact a :hover{
+    font-size: 20px;
+    color: black;
+}
+/* Top Ribbon */
+
+/* For Logo and Top Ribbon */
+@media screen and (max-width: 600px) {
+    .logo{
+        height: 40px;
+        width: 210px;
+    }
+    .contact-ribbon{
+        height: 30px;
+        width: 100%;
+    }
+    .contact-ribbon .social-contact i{
+        font-size: 12px;
+    }
+    .contact-ribbon .social-contact a :hover{
+        font-size: 16px;
+    }
+}
+/* For Logo and Top Ribbon */
+
+/* Service */
+.services{   
+    padding: 40px 70px 40px 70px;
+    text-align: center;
+    background-color:  rgb(241, 168, 58);
+    color: white;
+}
+.services i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.services h5{
+    font-weight: bold;
+    margin: 3px 0 10px 0;
+}
+.services .service-item{
+    margin: 10px 0 10px 0;
+    padding: 0 20px 0 20px;
+}
+.services .service-item p{
+    line-height: 20px;
+    font-size: 14px;
+}
+/* Service */
+
+.footer{
+    /* padding: 40px 70px 40px 70px; */
+    padding: 5% 8% 5% 8%;
+    text-align: left;
+    background-color: rgb(44, 41, 41);
+    color: rgb(173, 168, 168);
+    font-size: 14px;
+}
+.footer h6{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer .footer-contact{
+    max-width: 10px 0 10px 0;
+    padding: 0 20px 0 20px;
+    line-height: 25px;
+    margin: 20px 0 20px 0;
+}
+
+.footer .footer-contact i{
+    font-size: 14px;
+    /* color: rgb(241, 168, 58); */
+    margin-right: 13px;
+}
+.footer .footer-contact .add{margin-right: 16px;}
+.footer .footer-about{
+    margin: 20px 0 20px 0;
+}
+.footer .footer-about p{
+    margin-top: 15px;
+}
+.footer img{
+    height: 45px;
+    width: 240px;
+}
+.footer .footer-about i{
+    margin-right: 15px;
+    color: rgb(173, 168, 168);
+}
+
+.footer .footer-about a{text-decoration: none;}
+
+.footer .footer-about a :hover{color: rgb(241, 168, 58); }
+
+.footer .footer-links{
+    margin: 20px 0 20px 0;
+    line-height: 25px;
+    color: white;
+}
+.footer .footer-links i{
+    color: rgb(173, 168, 168);
+    font-size: 12px;
+    margin-right: 13px;
+}
+.footer .footer-links a{text-decoration: none; color: rgb(173, 168, 168);}
+.footer .footer-links a :hover{color: rgb(241, 168, 58);}
+
+.copyright-ribbon{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(32, 31, 30);
+    font-size: 14px;
+    color: white;
+}
+
+
+/* extra div 1 */
+.consultant{
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.consultant h1{font-weight: bold; color: rgb(241, 168, 58); margin-right: 30px;}
+.consultant h4{margin: 25px 0 25px 0; font-weight: bold; color: gray;}
+.consultant h2{font-weight: bold;}
+.consultant i{
+    font-size: 35px; color: black; margin: 0 10px 0 30px;
+    background-color: rgb(241, 168, 58);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 570px){
+    .consultant h1{font-size: 22px;}
+    .consultant h2{font-size: 18px;}
+    .consultant h4{font-size: 12px;}
+    .consultant i{font-size: 16px; margin-left: 10px; padding: 6px;}
+}
+/* extra div 1 */
+
+/* extra div 2 */
+.our-works{
+    background-color: rgba(17, 16, 16, 0.822);
+    padding: 5% 8%;
+    color: white;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.our-works h6{font-weight: bold;}
+.our-works img{
+    width: 160px;
+    height: 160px;
+    border: 1.5px  solid rgb(241, 168, 58) ;
+    border-radius: 80px;
+    padding: 2.5%;
+    margin-bottom: 30px;
+}
+.our-works .our-works-highlight-main{
+    margin-top: 4%;
+}
+.our-works .our-works-highlight{
+    /* margin-top: 3%; */
+    padding: 40px 30px;
+    background-color: rgba(17, 16, 16, 0.514);
+}
+/* .our-works p{
+    font-size: 13px;
+    color: rgb(241, 168, 58);
+} */
+/* extra div 2 */
+
+/* extra div 3 */
+.our-services{
+    background-image: url('../images/Calgary-carpentry-services1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 8%;
+}
+.our-services h4{ color: white; font-weight: bold; }
+.our-services .service{
+    text-align: center;
+}
+.our-services .service{margin-top: 10px;}
+.our-services .service div{
+    padding: 25px;
+    background-color: white;
+}
+.our-services .service div h6{color: rgb(48, 45, 45); font-weight: bold; margin-bottom: 15px;}
+.our-services .service div p { color: gray; font-size: 13px;}
+.our-services .service div i {
+    background-color: rgb(218, 144, 34);
+    color: white;
+    padding: 17%;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+/* extra div 3 */
+
+/* extra div 4 */
+.experience{
+    background-color: rgb(255, 244, 227);
+    color: rgb(104, 103, 103);
+    padding: 5% 8%;
+}
+.experience h5{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.experience .intro {padding: 20px;}
+.experience .intro img{
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+    float: left;
+    clear: left;
+}
+.experience .intro #p1{font-size: 13px;}
+.experience .intro #p2{font-size: 13px; line-height: 25px;}
+.experience .intro i{
+    color: rgb(218, 144, 34);
+    font-size: 12px;
+    margin-right: 13px;
+}
+
+.image{
+    padding: 10px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+/* extra div 4 */

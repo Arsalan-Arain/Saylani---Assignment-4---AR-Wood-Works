@@ -1,0 +1,50 @@
+@import url(style.css);
+body{
+    padding: 0;
+    margin: 0;
+}
+.services-main{
+    padding: 5% 8% 5% 8%;
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+}
+.services-main .item{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.services-main .item img{
+    width: 100%;
+    height: 180px;
+}
+h5{
+    margin-top: 15px;
+    color: rgb(65, 61, 61);
+}
+#focus-img{
+    width: 100%;
+    height: 350px;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .img-text {
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+  @media screen and (max-width: 700px)
+{
+    #focus-img{height: 250px;}
+    .img-text {font-size: 40px;}
+}
+@media screen and (max-width: 500px)
+{
+    #focus-img{height: 200px;}
+    .img-text {font-size: 30px;}
+}
